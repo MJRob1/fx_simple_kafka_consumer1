@@ -22,7 +22,7 @@ fn create() -> StreamConsumer {
 async fn consume(consumer: StreamConsumer) {
     println!("Consumer1: consuming messages...");
     consumer
-        .subscribe(&["my-topic"])
+        .subscribe(&["fx-topic"])
         .expect("Consumer1 can't subscribe to specified topic");
 
     loop {
