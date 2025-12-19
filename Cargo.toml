@@ -1,0 +1,8 @@
+[package]
+name = "fx_simple_kafka_consumer1"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rdkafka = "0.38.0"
+tokio = { version = "1", default-features = false, features = ["full"]}
